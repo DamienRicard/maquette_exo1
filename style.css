@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #201e1e;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+/* ----- Header ----- */
+header{
+    display:flex;
+    height: 80px;
+    width: 100%;
+    background-color: #201e1e;
+    margin-bottom: 60px;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    
+}
+
+.left {
+    width: 50%;
+    color:white;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+.right {
+    display:flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 15px;
+    font-weight: 600;
+}
+p {
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
+
+
+/* ----- Main ----- */
+
+#main {
+    display: flex;
+    height: 100vh;
+
+}
+
+#texte {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    padding: 20px;
+}
+
+#image {
+    width: 50%;
+    align-items: center;
+    justify-content:center;
+    margin-right: 25px;
+}
+
+#picture {
+    width: 100%;
+}
+
+h1 {
+    font-size: 90px;
+    color:white;
+    margin-bottom: 0;
+}
+
+h2 {
+    color :rgb(40, 40, 202);
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+#texte > p {
+    color:rgb(253, 253, 253);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+/* ----- Footer ----- */
+
+footer {
+    display: flex;
+    background-color: #060606;
+    border-radius: 10px;
+    margin: 0px 10px 20px 10px;
+    color: white;
+    height: 200px;
+}
+
+.footerLeft {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px 0 15px;
+    padding-top: 0px;
+    width: 15%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footerLeft > div {
+    height: 30px;
+    background-color:rgb(40, 40, 202) ;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.logos {
+    display: flex;
+    flex-grow: 1;
+    height: 100px;
+    justify-content: space-evenly;
+    
+}
+
+#footer {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.investor {
+    font-size: 15px;
+    font-weight: 700;
+}
